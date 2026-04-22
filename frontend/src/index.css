@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI";
+  background: #f4f6f9;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #4a90e2;
+  color: white;
+}
+
+.dashboard-grid {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.stat-card {
+  flex: 1;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
